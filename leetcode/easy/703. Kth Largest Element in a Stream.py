@@ -1,5 +1,4 @@
 """
-
 Problem: https://leetcode.com/problems/kth-largest-element-in-a-stream/
 Topics: Priority Queue, Sorted list
 Difficulty: Easy
