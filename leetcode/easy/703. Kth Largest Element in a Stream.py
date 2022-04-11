@@ -2,7 +2,7 @@
 Problem: https://leetcode.com/problems/kth-largest-element-in-a-stream/
 Topics: Priority Queue, Sorted list
 Difficulty: Easy
-Youtube Explanation:
+Youtube Explanation: https://www.youtube.com/watch?v=_-0d8G2GPaY&t=773s
 """
 import heapq
 from bisect import bisect

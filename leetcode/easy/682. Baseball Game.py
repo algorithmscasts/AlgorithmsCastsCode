@@ -4,8 +4,10 @@ Topics: Stack, Simulation
 Difficulty: Easy
 Youtube Explanation: https://www.youtube.com/watch?v=NCIE_XlV0QY
 """
+
+
 class Solution:
-    def calPoints(self, ops) :
+    def calPoints(self, ops):
         stack = []
         for op in ops:
             if op == "D":

@@ -2,7 +2,7 @@
 Problem: https://leetcode.com/problems/top-k-frequent-elements/
 Topics: Priority Queue, bucket sort
 Difficulty: Medium
-Youtube Explanation:
+Youtube Explanation: https://www.youtube.com/watch?v=Buk3AYrt4dk&t=5s
 """
 
 import collections
