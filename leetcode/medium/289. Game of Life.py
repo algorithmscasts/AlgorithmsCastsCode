@@ -2,7 +2,7 @@
 Problem: https://leetcode.com/problems/game-of-life/
 Topics: Matrix, Simulation
 Difficulty: Medium
-Youtube Explanation:
+Youtube Explanation: https://youtu.be/43n7YmoTjf4
 """
 class Solution:
     def gameOfLife(self, board):
