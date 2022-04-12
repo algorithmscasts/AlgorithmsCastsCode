@@ -2,7 +2,7 @@
 Problem: https://leetcode.com/problems/shift-2d-grid/
 Topics: Matrix, Simulation
 Difficulty: Easy
-Youtube Explanation:
+Youtube Explanation: https://www.youtube.com/watch?v=uG3jUf98r50
 """
 
 import itertools

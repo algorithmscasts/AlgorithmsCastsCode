@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/game-of-life/
+Topics: Matrix, Simulation
+Difficulty: Medium
+Youtube Explanation:
+"""
 class Solution:
     def gameOfLife(self, board):
         def live_nei_count(board, i, j):
