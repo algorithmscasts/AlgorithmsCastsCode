@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/spiral-matrix-ii/
+Topics: Matrix, Simulation
+Difficulty: Medium
+Youtube Explanation: https://youtu.be/zfmUGXuckuc
+"""
 class Solution:
     def generateMatrix(self, n):
         res = [[0 for _ in range(n)] for _ in range(n)]
