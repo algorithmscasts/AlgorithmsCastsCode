@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/search-in-a-binary-search-tree/
+Topics: Tree, Binary Search Tree, Binary Tree
+Difficulty: Easy
+Youtube Explanation: https://youtu.be/lbE6M5Ue99A
+"""
 class Solution:
     def searchBST(self, root, val):
         if not root:
