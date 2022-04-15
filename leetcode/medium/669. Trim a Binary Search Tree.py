@@ -1,3 +1,11 @@
+"""
+Problem: https://leetcode.com/problems/trim-a-binary-search-tree/
+Topics: Binary Search Tree, Tree, Depth first Search
+Difficulty: Medium
+Youtube Explanation: https://youtu.be/eCMpgYNHNos
+"""
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
