@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/convert-bst-to-greater-tree/
+Topics: Binary Search Tree, Tree, Binary Tree, Depth first Search
+Difficulty: Medium
+Youtube Explanation: https://youtu.be/MPSGrJZcAFA
+"""
 class Solution:
 
     def convertBST(self, root):
