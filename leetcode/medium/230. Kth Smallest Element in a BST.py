@@ -1,3 +1,10 @@
+"""
+Problem: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+Topics: Binary Search Tree, Tree, Binary Tree, Depth first Search
+Difficulty: Medium
+Youtube Explanation: https://youtu.be/W2GxbbBTPqo
+"""
+
 class Solution:
     def kthSmallest(self, root, k):
         def inorder(node):
