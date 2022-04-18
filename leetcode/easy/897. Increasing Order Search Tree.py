@@ -5,6 +5,7 @@ Difficulty: Easy
 Youtube Explanation: https://youtu.be/TlKNW3D8GNg
 """
 
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
