@@ -5,6 +5,7 @@ Difficulty: Medium
 Youtube Explanation: https://youtu.be/W2GxbbBTPqo
 """
 
+
 class Solution:
     def kthSmallest(self, root, k):
         def inorder(node):

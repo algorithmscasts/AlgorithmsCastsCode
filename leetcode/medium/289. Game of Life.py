@@ -4,6 +4,8 @@ Topics: Matrix, Simulation
 Difficulty: Medium
 Youtube Explanation: https://youtu.be/43n7YmoTjf4
 """
+
+
 class Solution:
     def gameOfLife(self, board):
         def live_nei_count(board, i, j):
@@ -33,7 +35,6 @@ class Solution:
 
         for (i, j) in live:
             board[i][j] = 1
-
 
     def gameOfLifeSol2(self, board):
 
