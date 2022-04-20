@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/binary-search-tree-iterator/
+Topics: Stack, Iterator, Binary Search Tree, Tree, Binary Tree, Depth first Search
+Difficulty: Medium
+Youtube Explanation: https://youtu.be/c3oxh6iLU8k
+"""
 class BSTIterator:
 
     def __init__(self, root):
@@ -62,12 +68,12 @@ class BSTIteratorSol4:
         self.generator = self.inorder_generator(root)
         self.curr = next(self.generator)
 
-    def next(self) -> int:
+    def next(self):
         node = self.curr
         self.curr = self.next_node(self.generator)
         return node.val
 
-    def hasNext(self) -> bool:
+    def hasNext(self):
         return self.curr
 
     def next_node(self, generator):
