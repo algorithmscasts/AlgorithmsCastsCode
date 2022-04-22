@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/design-hashmap/
+Topics: Array, Hash Table, Linked List, Design, Hash Function
+Difficulty: Medium
+Youtube Explanation: https://youtu.be/2jpkyVaKhig
+"""
 class MyHashMap:
 
     def __init__(self):
