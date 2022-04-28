@@ -1,3 +1,6 @@
+from collections import deque
+
+
 class Solution:
     def minimumEffortPath(self, heights):
         R, C = len(heights), len(heights[0])
@@ -33,12 +36,13 @@ class Solution:
 
         return lo
 
-    def minimumEffortPath(self, heights):
+    def minimumEffortPathSol2(self, heights):
+
         def valid(i, j):
             return 0 <= i < R and 0 <= j < C
 
         def canReachEnd(threshold):
-            visited, q = set(), deque([(0, 0)])
+            visited, q = {(0, 0)}, deque([(0, 0)])
 
             while q:
                 i, j = q.popleft()
@@ -46,12 +50,10 @@ class Solution:
                 if i == R - 1 and j == C - 1:
                     return True
 
-                visited.add((i, j))
-
                 for ni, nj in [(i + 1, j), (i, j + 1), (i - 1, j), (i, j - 1)]:
-                    if valid(ni, nj) and abs(heights[i][j] - heights[ni][nj]) <= threshold:
-                        if (ni, nj) not in visited:
-                            q.append((ni, nj))
+                    if valid(ni, nj) and abs(heights[i][j] - heights[ni][nj]) <= threshold and (ni, nj) not in visited:
+                        visited.add((ni, nj))
+                        q.append((ni, nj))
             return False
 
         R, C = len(heights), len(heights[0])
@@ -62,5 +64,4 @@ class Solution:
                 hi = mid
             else:
                 lo = mid + 1
-
         return lo
