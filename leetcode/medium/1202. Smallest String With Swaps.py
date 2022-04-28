@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     def smallestStringWithSwaps(self, s, pairs):
         n = len(s)
