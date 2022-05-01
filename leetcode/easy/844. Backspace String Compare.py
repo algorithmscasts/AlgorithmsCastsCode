@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/backspace-string-compare/
+Topics: Two pointers, Stack, String, Simulation
+Difficulty: Easy
+Youtube Explanation: https://www.youtube.com/watch?v=kXVDXmICRa0
+"""
 class Solution:
     # recursive solution going backwards to apply backspace
     def backspaceCompare(self, s, t):
