@@ -15,7 +15,7 @@ class Solution:
         return apply(s, len(s) - 1) == apply(t, len(t) - 1)
 
     def backspaceCompareSol2(self, s, t):
-        # using just stack
+        # using stack
         def apply(s):
             st = []
             for c in s:
