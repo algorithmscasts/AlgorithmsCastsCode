@@ -1,5 +1,10 @@
+"""
+Problem: https://leetcode.com/problems/max-number-of-k-sum-pairs/
+Topics: Two pointers, Hashtable, Sorting, Array
+Difficulty: Medium
+Youtube Explanation: https://www.youtube.com/watch?v=kp8hdby56PQ
+"""
 import collections
-
 
 class Solution:
     def maxOperations(self, nums, k):
