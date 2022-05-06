@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/implement-stack-using-queues/
+Topics: Stack, Design, Queue
+Difficulty: Medium
+Youtube Explanation:
+"""
 import collections
 
 
