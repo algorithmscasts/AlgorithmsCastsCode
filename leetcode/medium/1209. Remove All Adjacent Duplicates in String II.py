@@ -1,3 +1,9 @@
+"""
+Problem: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+Topics: Stack, String
+Difficulty: Medium
+Youtube Explanation: https://www.youtube.com/watch?v=t19uzr2N21U
+"""
 class Solution:
     def removeDuplicates(self, s, k):
         stk = []
